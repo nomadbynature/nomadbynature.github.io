@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nomadbynature.github.io</id>
-    <title>Gridea</title>
-    <updated>2020-11-06T16:00:35.814Z</updated>
+    <title>Nomadbynature</title>
+    <updated>2020-11-06T16:01:06.620Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nomadbynature.github.io"/>
     <link rel="self" href="https://nomadbynature.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://nomadbynature.github.io/images/avatar.png</logo>
     <icon>https://nomadbynature.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Nomadbynature</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://nomadbynature.github.io/post/hello-gridea/</id>
