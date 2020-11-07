@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Jak stworzyć darmowy traker nawyków w aplikacji Notion? | Nomad by nature</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://nomadbynature.github.io/favicon.ico?v=1604713129820">
+<link rel="stylesheet" href="https://nomadbynature.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Stworzenie darmowego trackera nawyków w aplikacji Notion nie mogłoby być prostsze. Istnieje wiele rozwiązań i aplikacji,..." />
+    <meta name="keywords" content="Narzędzia" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nomadbynature.github.io">
+        <img src="https://nomadbynature.github.io/images/avatar.png?v=1604713129820" class="site-logo">
+        <h1 class="site-title">Nomad by nature</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://nomadbynature.github.io/post/zacznij-tutaj" class="site-nav">
+            Zacznij tutaj
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Cyfrowy nomadyzm po polsku
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nomadbynature.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Jak stworzyć darmowy traker nawyków w aplikacji Notion?</h2>
+            <div class="post-date">2020-04-16</div>
+            
+              <div class="feature-container" style="background-image: url('https://nomadbynature.github.io/post-images/jak-stworzyc-darmowy-traker-nawykow-w-aplikacji-notion.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>Stworzenie darmowego trackera nawyków w aplikacji Notion nie mogłoby być prostsze. Istnieje wiele rozwiązań i aplikacji, które pozwalają na monitorowanie naszych pożądanych, (bądź niepożądanych) nawyków. Ale jak dla mnie instalowanie i używanie oddzielnej aplikacji tylko do tego celu, jest zwyczajnie nieefektywne.</p>
+<!-- more -->
+<p>Łatwo też o takiej dodatkowej aplikacji zapomnieć i zaniechać monitorowania nawyków zupełnie - skazując nasze cele na niepowodzenie.</p>
+<p>Aby zapewnić (albo chociaż ułatwić), sobie sukces znalazłam proste i przyjemne rozwiązanie wewnątrz Notion. Aplikacji tej używam codziennie, jako planera, bazy wiedzy itd., więc <strong>dodanie funkcjonalności śledzenia nawyków bezpośrednio wewnątrz narzędzia, jest dla mnie najlepszym i najbardziej produktywnym rozwiązaniem</strong>. Mam nadzieję, że wam również się przyda.</p>
+<h2 id="po-co-wogóle-śledzić-własne-nawyki">Po co wogóle śledzić własne nawyki?</h2>
+<p>Śledzenie nawyków może wydawać się niepotrzebne lub trochę za bardzo jak byśmy chcieli kontrolować każdy, nawet najmniejszy aspekt naszego funkcjonowania. Z niczym oczywiście nie należy przesadzać, ale monitorowanie niektórych nawyków, szczególnie takich, które chcielibyśmy dopiero rozwinąć, ma swoje plusy.</p>
+<blockquote>
+<p>“People do not decide their futures; they decide their habits and their habits decide their futures.”</p>
+<p>F.M. Alexander</p>
+</blockquote>
+<p>Zwłaszcza, że tak naprawdę nasze życie i nasz sukces składa się z serii małych wydarzeń - dobrych, codziennych nawyków. A nasza ewentualna porażka, często sprowadza się do ich braku. Ale skąd mamy wiedzieć czy jesteśmy na dobrej ścieżce do sukcesu usłanej dobrymi nawykami? Bez śledzenia nawyków, do końca nie wiemy; albo tylko nam się wydaje, że wiemy. Może nam się wydawać, że dużo ćwiczymy albo czytamy, ale nie widzimy czarno na białym. Przy dobrym sposobie na śledzenie nowych nawyków nie ma miejsca na naginanie prawdy lub zmyślanie. Wszystko będzie widoczne.</p>
+<p><strong>Odpowiednie śledzenie nawyków pomaga nam:</strong></p>
+<ul>
+<li>w osiągnięciu celów, szczególnie tych długofalowych, które wymagają regularnego wysiłku przez dłuższy czas, i nie dają szybkich rezultatów tu i teraz, np. cel - przebiec maraton</li>
+<li>w poczuciu zadowolenia i większej kontroli nad kierunkiem własnych działań, a co za tym idzie większą motywację na przyszłość</li>
+<li>zobaczyć czarno na białym, co faktycznie robimy a czego nie (bez oszukiwania samego siebie); czy czynimy postęp i z jakimi nawykami mamy problemy, dzięki temu możemy aktywnie skorygować/zmienić nasze działania</li>
+<li>w zerwaniu ze złymi nawykami - przecież w trakerze możemy również śledzić, że czegoś nie zrobiliśmy, np. może to pomóc w rzuceniu palenia, nadmiernemu korzystaniu z social media…</li>
+</ul>
+<p>Jeśli chodzi o śledzenie nawyków polecałbym zacząć od jednego, dwóch. Nie chodzi tu o kontrolowanie każdego aspektu naszego życia. Z pewnością nie ma potrzeby śledzić takich rzeczy jak mycie zębów, no chyba że macie z tym nawykiem problem….</p>
+<h2 id="jak-stworzyć-darmowy-tracker-nawyków-wewnątrz-notion">Jak stworzyć darmowy tracker nawyków wewnątrz Notion?</h2>
+<p>Aby, zacząć śledzenie nawyków w Notion musimy kolejno:</p>
+<ol>
+<li>założyć darmowe konto w aplikacji <a href="https://www.notion.so/?r=59fa9791e9a24baba2e1d5b9a88bd778">Notion</a> (jeśli jeszcze takiego nie macie) - jeśli założysz konto z mojego linku partnerskiego, otrzymam 5$ na poczet mojej płatnej subskrypcji, dzięki!</li>
+<li>stworzyć nową bazę danych <strong>w formie tabeli</strong>
+<ul>
+<li><strong>kolumny to nawyki</strong> które chcemy śledzić, np.: nauka języka obcego, bieganie, medytacja...</li>
+<li>najlepiej wybrać <strong>checkbox jako typ kolumny</strong>, wtedy, jeśli wykonaliśmy daną czynność zaznaczamy “tick”</li>
+<li><strong>wiersze to data</strong> - jeden wiersz na każdy dzień</li>
+</ul>
+</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://nomadbynature.github.io/post-images/1604701285167.jpg" alt="" loading="lazy"></figure>
+<p>Stwórz bazę danych w formie tabeli na nowej stronie/lub wewnątrz istniejącej strony</p>
+<figure data-type="image" tabindex="2"><img src="https://nomadbynature.github.io/post-images/1604701321817.jpg" alt="" loading="lazy"></figure>
+<p>Wybierz typ kolumny - checkbox</p>
+<p><strong>I już, tracker jest gotowy!</strong> Teraz każdego dnia możemy zaznaczyć, które z planowanych nawyków, wykonaliśmy.</p>
+<p>Dodatkowo dzięki filtrom tabelę możemy ustawić tak, aby pokazywała tylko najbliższy dzień/kilka dni. Kolejne dni dodajemy poprzez dodanie wiersza w tabeli.</p>
+<p>Notion też automatycznie podlicza zaznaczone '✓' w każdej z kolumn, dzięki temu widzimy też jak nam idzie rozwijanie/utrzymywanie nawyków.</p>
+<figure data-type="image" tabindex="3"><img src="https://nomadbynature.github.io/post-images/1604701337354.jpg" alt="" loading="lazy"></figure>
+<p>Notion podliczy ilość dni kiedy wykonaliśmy nawyk</p>
+<p>Ja do swojego trackera dodałam jeszcze kolumnę ‘samopoczucie’ i ‘dziennik’, w których zapisuję moje samopoczucie danego dnia oraz czasami krótką notatkę o tym co mnie tego dnia spotkało.</p>
+<h2 id="podsumowanie">Podsumowanie</h2>
+<p>Jak wspomniałam na początku istnieją dedykowane rozwiązania i aplikacje do śledzenia naszych nawyków. Jednak w moim przypadku żadna nie sprawdziła się na dłuższą metę. Wydaje mi się, że to głównie z powodu, że musiałam wyrobić nowy nawyk korzystania z nowej aplikacji, aby śledzić swoje nawyki.</p>
+<p>Dlatego dla mnie najkorzystniejszym i skutecznym rozwiązaniem było <strong>wbudowanie funkcjonalności śledzenia nawyków w narzędziu którego już używam</strong>. Możecie zastosować taką taktykę, nawet jeśli nie korzystacie z Notion. Myślę, że inne aplikacje (np. popularne Trello czy Evernote), a już na pewno zwykły papierowy planer, dadzą wam taką możliwość. Trzeba to jedynie rozpracować od strony technicznej, na papierze jest najłatwiej, wystarczy narysować tabelę ;P</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nomadbynature.github.io/tag/6A0tq78d9/" class="tag">
+                    Narzędzia
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nomadbynature.github.io/post/usprawnij-swoja-produktywnosc-jak-wdrozylam-metode-gtd-getting-things-done-z-aplikacja-notion/">
+                  <h3 class="post-title">
+                    Usprawnij swoją produktywność - jak wdrożyłam metodę GTD (Getting Things Done) z aplikacją Notion?
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

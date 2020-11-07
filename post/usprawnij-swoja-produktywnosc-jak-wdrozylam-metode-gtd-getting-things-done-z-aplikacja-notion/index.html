@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Usprawnij swoją produktywność - jak wdrożyłam metodę GTD (Getting Things Done) z aplikacją Notion? | Nomad by nature</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://nomadbynature.github.io/favicon.ico?v=1604713129820">
+<link rel="stylesheet" href="https://nomadbynature.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Jeśli zastanawiacie się co to w ogóle jest metoda GTD (Getting Things Done) lub co to jest Notion, muszę was najpierw od..." />
+    <meta name="keywords" content="Narzędzia" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nomadbynature.github.io">
+        <img src="https://nomadbynature.github.io/images/avatar.png?v=1604713129820" class="site-logo">
+        <h1 class="site-title">Nomad by nature</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://nomadbynature.github.io/post/zacznij-tutaj" class="site-nav">
+            Zacznij tutaj
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Cyfrowy nomadyzm po polsku
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://nomadbynature.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Usprawnij swoją produktywność - jak wdrożyłam metodę GTD (Getting Things Done) z aplikacją Notion?</h2>
+            <div class="post-date">2020-04-06</div>
+            
+              <div class="feature-container" style="background-image: url('https://nomadbynature.github.io/post-images/usprawnij-swoja-produktywnosc-jak-wdrozylam-metode-gtd-getting-things-done-z-aplikacja-notion.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>Jeśli zastanawiacie się co to w ogóle jest metoda <strong>GTD (Getting Things Done)</strong> lub co to jest <strong>Notion</strong>, muszę was najpierw odesłać do dwóch poprzednich postów, które wam te zagadnienia wyjaśnią.</p>
+<!-- more -->
+<p></p>
+<p>Jeśli nie korzystaliście jeszcze z Notion, zerknijcie na artykuł pokazujący jak to zrobić - <a href="https://nomadbynature.xyz/jak-zaczac-z-aplikacja-notion-poradnik-dla-poczatkujacych/">Jak zacząć z aplikacją Notion? - poradnik dla początkujących</a>.</p>
+<p>A jeśli interesuje was sama metoda GTD zapoznajcie się z książką - <a href="https://go.buybox.click/linkclick_4726_78?&amp;url=https%3A%2F%2Fwww.empik.com%2Fgetting-things-done-czyli-sztuka-bezstresowej-efektywnosci-allen-david%2Cp1116659991%2Cksiazka-p">“Getting Things Done, czyli sztuka bezstresowej produktywności“</a> David’a Allen’a i moim artykułem na jej temat <a href="https://nomadbynature.xyz/getting-things-done-gtd-odkryj-tajemnice-bezstresowej-produktywnosci/">Getting Things Done (GTD) - odkryj tajemnicę bezstresowej produktywności</a>.</p>
+<p>Z kolei jeśli znacie już podstawy, to chciałabym <strong>opisać jak ja wdrożyłam metodologię GTD wewnątrz aplikacji Notion</strong>. Posiadanie sprawnego systemu organizacji jest bardzo ważne. Samo narzędzie czy to Notion, Trello, Assana...nie wystarczy, aby być produktywnym.</p>
+<p>Dobry system to podstawa, definiuję tutaj system jako to, w jaki sposób traktujemy i analizujemy każdą płynącą w naszą stronę informację.</p>
+<p>Mój dzisiejszy post polecam nie tylko tym z was, którzy korzystają z aplikacji Notion. Jeśli korzystasz z innego narzędzia do organizacji, również możesz wprowadzić w życie system który wam proponuję. Będzie się to jedynie różniło od strony technicznej i będzie zależne od opcji które oferuje narzędzie organizacyjne z którego korzystasz.</p>
+<p>Jak dla mnie system Notion + GTD sprawdza się wyśmienicie, myślę, że wam również może się przydać, szczególnie jeśli macie problemy w organizacji lub chcecie zwiększyć skuteczność swoich działań.</p>
+<p><strong>Zaczynamy!</strong></p>
+<h2 id="czego-potrzebujesz">Czego potrzebujesz?</h2>
+<ul>
+<li>konta w aplikacji <a href="https://www.notion.so/?r=59fa9791e9a24baba2e1d5b9a88bd778">Notion</a> (konto jest darmowe, aż do 1000 stworzonych bloków) - jeśli zapiszesz się z mojego linku partnerskiego otrzymam 5$ na poczet mojej płatnej subskrypcji</li>
+<li>trochę czasu, najlepiej sam na sam ze swoimi myślami - ile czasu, to już zależy od wielkości twojego bałaganu, mi wdrożenie systemu zajęło całkiem sporo...</li>
+<li>twojego dotychczasowego systemu organizacji jeśli takowy posiadasz ( i jeśli chcesz go zmienić lub usprawnić) - może jest to kalendarz, notatnik, albo przypadkowe świstki papieru</li>
+</ul>
+<p>Jeśli już masz wszystko co zostało wyżej wymienione zaczynamy, zgodnie z etapami metody GTD:</p>
+<h2 id="1-gromadzenie">1. Gromadzenie</h2>
+<p>W celu gromadzenia w aplikacji Notion tworzymy bazę danych (database). Będzie to nasza skrzynka zbiorcza, do której wpadać będą <strong>wszystkie</strong> informacje, materiały, niedokończone sprawy, złote myśli...itp.</p>
+<p>Aby to zrobić wystarczy kliknąć New Page + w lewym dolnym rogu aplikacji (zakładam, że korzystacie z aplikacji wewnątrz przeglądarki internetowej) a następnie Database ---&gt;Table.</p>
+<p>Polecam zastosować widok tabeli, choć aplikacja umożliwia nam inne opcje wyświetlania danych, <strong>na potrzeby skrzynki zbiorczej tabela będzie najlepsza.</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://nomadbynature.github.io/post-images/1604702403437.jpg" alt="" loading="lazy"></figure>
+<p>Tworzenie bazy danych w formie tabeli</p>
+<p>Nadajcie swojej głównej bazie danych jakąś ciekawą lub zabawną nazwę, moja nazywa się Drop Zone (strefa zrzutu) - bo wrzucam tam wszystko jak leci.</p>
+<p><strong>Jakie kolumny</strong> powinny się znaleźć się w tej zbiorczej bazie danych? To będzie oczywiście zależało od was, ale (jeśli chcemy trzymać się metody GTD), powinny się tu znaleźć minimum rubryki takie jak:</p>
+<ul>
+<li><strong>nazwa</strong> - tutaj wpisujemy informacje takie jak, np. zrób zakupy, zadzwoń do mamy, odbierz Janka z lotniska, plan na wakacje, idź do dentysty, przeczytaj “Sapiens. Od zwierząt do bogów.” Yuval Noah Harari’ego, oddzwoń do klienta xyz...</li>
+</ul>
+<p>Do stworzonej tabeli (kolumna nazwa) wprowadzamy wszystkie dręczące nas sprawy, zadania, materiały, artykuły do późniejszego przeczytania, można nawet wrzucić zdjęcia które utkwiły nam w pamięci, linki internetowe, itp…</p>
+<p><strong>Na etapie gromadzenia uzupełniamy jedynie kolumnę nazwa.</strong> Pozostałe kolumny uzupełnimy później, chodzi tu o pozbycie się z głowy wszystkich informacji, które w jakiś sposób zajmują naszą mentalną przestrzeń. Jeśli natomiast macie już system organizacji, to wprowadzamy wszystkie informacje ze starego systemu, do nowego wewnątrz Notion (również tylko kolumnę nazwa).</p>
+<figure data-type="image" tabindex="2"><img src="https://nomadbynature.github.io/post-images/1604702434414.jpg" alt="" loading="lazy"></figure>
+<p>Etap gromadzenia</p>
+<p>Możemy dodać pozostałe kolumny, ale przydadzą się one dopiero w kolejnych etapach GTD:</p>
+<ul>
+<li><strong>Wymaga działania?</strong> - w formie checkbox</li>
+<li><strong>następna czynność -</strong> ta rubryka jest bardzo ważna dla faktycznego zwiększenia naszej skuteczności, pozwólcie, że posłużę się przykładem: Jeśli chcesz przeczytać “Sapiens. Od zwierząt do bogów.” Yuval Noah Harari’ego, jakie powinno być twoje pierwsze następne działanie? Samo napisanie 'przeczytaj' nie załatwi sprawy, najpierw potrzebna nam jest sama książka, więc w tym wypadku naszym następnym działaniem może być coś takiego: zamów książkę na Allegro, albo idź do biblioteki, aby wypożyczyć książkę.</li>
+</ul>
+<p>Swoją drogą, to bardzo dobra książka, więc polecam ją przeczytać.</p>
+<ul>
+<li><strong>sprawdzone</strong> - w formie checkbox - w ten sposób opróżniamy skrzynkę spraw przychodzących, jeśli coś już zostało przeanalizowane (w późniejszym etapie)</li>
+</ul>
+<p>Notka techniczna: <strong>jak dodać okienko typu checkbox?</strong> Klikamy na pole tytułowe kolumny i pod Property Type wybieramy ---&gt; Checkbox.</p>
+<p>Ja dodałam jeszcze inne kolumny (kategorie, tagi), choć te mają związek z kolejnymi etapami GTD i nie wszystkie są absolutnie konieczne, jeśli nie chcecie z nich korzystać. Są to też kolumny uzależnione od tego czym się zajmujecie, ale o tym trochę później.</p>
+<h3 id="pro-tip">Pro Tip</h3>
+<p>W gromadzeniu danych i informacji na co dzień , szczególnie tych cyfrowych pomoże wam darmowa wtyczka do przeglądarki - <a href="https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk?hl=en">Notion Web Clipper</a>. Umożliwia ona szybkie dodawanie linków (zakładek) do bazy danych. Polecam ją zainstalować, aby usprawnić wasz workflow.</p>
+<h2 id="2-analiza-3-porządkowanie">2. Analiza + 3. Porządkowanie</h2>
+<p>Postanowiłam połączyć te etapy w jeden, ponieważ są one ze sobą bardzo ściśle związane i dzieją się jakoby jednocześnie, szczególnie jeśli korzystamy z takiego narzędzia jak Notion, (dziwię się też trochę, dlaczego sam autor metody GTD traktuje je oddzielnie, ale to już inna sprawa). Uważam również, że takie podejście pomaga nam <strong>zaoszczędzić czas</strong>, na czym nam wszystkim zależy.</p>
+<p>Gdy nasza baza danych - skrzynka zbiorcza jest już pełna i nie mamy nic więcej do dodania (przynajmniej jak na dany moment) <strong>przystępujemy do jednoczesnej analizy i porządkowania</strong>.</p>
+<p><strong>Analiza</strong> to zasadniczo dwie kolumny w naszej tabelce - ‘wymaga działania?’ i ‘następne działanie’. Po kolei, czytamy każdą wprowadzoną przez nas do bazy danych informację i decydujemy: Czy wymaga działania? - jeśli tak to zaznaczamy “tick” w okienku i dodajemy następne działanie w polu ‘następne działanie’.</p>
+<figure data-type="image" tabindex="3"><img src="https://nomadbynature.github.io/post-images/1604702505777.jpg" alt="" loading="lazy"></figure>
+<p>Analiza i porządkowanie - wypełnianie pozostałych kolumn</p>
+<p>Dodatkowo, i to będzie <strong>etap porządkowania</strong>, w innych kolumnach jeśli takowe mamy możemy dodać tagi, kategorie. To samo robimy z rzeczami, które nie wymagają następnych działań, tagujemy je, aby później trafiły do odpowiednich miejsc/katalogów. Dzięki sile aplikacji Notion i po kilku ustawianiach będzie się to działo <strong>automatycznie</strong> (zdradzę wam, że to za pomocą filtrów)!</p>
+<p>Może zapytacie <strong>skąd wziąć kategorie i tagi?</strong> Otóż na etapie gromadzenia na pewno zauważyliście pewne zależności między wprowadzanymi przez was do tabeli informacjami.</p>
+<p>Niektóre mogły tyczyć się waszej pracy zawodowej, inne życia osobistego - w takim wypadku moglibyście wprowadzić kategorie “praca” i “osobiste”. Choć mi takie kategorie wydają się zbyt szerokie i wolę kategoryzować informacje trochę bardziej szczegółowo, ale nie za bardzo! Łatwo jest wprowadzić całe mnóstwo tagów i potem się w nich samemu pogubić.</p>
+<p>Notka techniczna: <strong>jak wprowadzić tagi w Notion?</strong> Klikamy na pole tytułowe kolumny i pod Property Type wybieramy ---&gt; Select albo Multi-select, dodajemy nasze tagi (możemy im też nadać różne kolory). Do tagowania <strong>polecam wybrać opcję multi-select</strong>, pozwala nam to nadać jednemu obiektowi (danym w naszej skrzynce zbiorczej) wiele tagów.</p>
+<p>Ja do zdeterminowania moich kategorii skorzystałam po części z metody P.A.R.A, stworzonej przez eksperta od produktywności - <a href="https://www.fortelabs.co/about">Tiago Forte</a>. P.A.R.A. to skrót od projekty, sfery odpowiedzialności, zasoby i archiwa (Projects, Areas of Responsibility, Resources, and Archives).</p>
+<figure data-type="image" tabindex="4"><img src="https://nomadbynature.github.io/post-images/1604702552578.jpg" alt="" loading="lazy"></figure>
+<p>Przykładowe 'sfery odpowiedzilności'</p>
+<p>Najbardziej interesują mnie tu projekty i sfery odpowiedzialności, które autor definiuje jako:</p>
+<p><strong>Sfera odpowiedzialności</strong> - to sfera działań, w której powinniśmy utrzymywać pewien standard, ale działania nie mają określonej daty końcowej, np. zdrowie - zawsze chcemy być zdrowi i o zdrowie dbać, nie ma tu daty końcowej. W moim przypadku jedną ze sfer odpowiedzialności jest moja strona internetowa - nomadbynature.xyz, nie ma daty jej zamknięcia, mam zamiar prowadzić ją bezterminowo (przynajmniej dopóki nie padnę ;P).</p>
+<p>Notka techniczna: wewnątrz Notion <strong>stwórzcie osobne strony dla każdej ze stref odpowiedzialności</strong> (nie bazy danych, a strony), aby to zrobić kliknijcie '+ New Page' w lewym dolnym rogu stony i nadajcie swojej stronie nazwę - nazwa niech odpowiada sferze odpowiedzialności.</p>
+<h3 id="pro-tip-2">Pro Tip</h3>
+<p>Aby miło wam się korzystało z Notion, spersonalizujcie swoje strony wybierając fajną nazwę, okładkę i ikonę. Ładny ale minimalistyczny wygląd to na pewno mocna strona tej aplikacji.</p>
+<p>Jeśli chodzi o mnie stosuję dość szerokie sfery odpowiedzialności, pewnie można by je rozbić bardziej szczegółowo, ale nie wydaje mi się, żeby miało to sens w moim przypadku. Jeśli ktoś prowadzi ogromną firmę, to zamiast traktować całą firmę jako sferę, można by to rozbić na marketing, sprzedaż, produkcję…. <strong>Sfery odpowiedzialności, ich ilość i rozległość będą zależały w zupełności od ciebie.</strong> Określ je tak, aby zmaksymalizować produktywność i między nimi ciągle nie przeskakiwać.</p>
+<p><strong>Projekt</strong> - seria zadań, która jest związana z konkretnym celem i ma datę zakończenia (np. zaliczenie egzaminu z matematyki, napisanie książki, nagranie wideo na YouTube, upieczenie ciasta na przyjście gości - projekty mogą być małe albo duże, ale zdecydowanie muszą się kiedyś skończyć).</p>
+<p>Może zauważyliście, że niektóre pozycje w waszej bazie danych - skrzynce zbiorczej to projekty! Bo wymagają więcej niż jednego działania, w takim wypadku możecie je otagować jako ‘projekty’.</p>
+<p>Ja sama w związku z definicją projektu stworzyłam dwa tagi - ‘projekty’ i ‘on the go’ - pomaga mi to odseparować od siebie sprawy raczej szybkie, krótkotrwałe od bardziej wymagających. Oczywiście tagi traktuję jako wskazówki, nie jako ostateczną wyrocznię. System ma służyć nam, a nie odwrotnie. Np. zrób zakupy na obiad potraktuję raczej jako ‘on the go’ aniżeli typowy projekt (mimo, że zrobienie zakupów ma określony czas i wymaga kilku działań), ale już 'napisz artykuł na bloga' będzie u mnie projektem.</p>
+<p>Dodatkowo, pewnie już dobrze wywnioskowaliście, że <strong>projekty podchodzą pod sfery odpowiedzialności</strong> i w ten sposób cała organizacja łączy się w całość i wszystko ma swoje miejsce. Przykład: projekt 'zaplanuj budżet wakacyjny' może być w sferze finanse, 'ćwicz jogę dwa razy w tygodniu' może podejść pod zdrowie/fitness, itp. (w kolejnym poście podpowiem wam jak łatwo śledzić swoje nawyki z Notion, nie jest wam potrzebna żadna dodatkowa aplikacja, yay!).</p>
+<p><strong>A co z elementami, które nie wymagają działania?</strong> Stworzyłam dla nich specjalną sferę - stronę w Notion pod nazwą wiedza/archiwa. Tam trafiają materiały referencyjne, ciekawe artykuły, które już przeczytałam, ale może chciałabym do nich wrócić itp. Także, obiekty które nie wymagają działania oznaczam tagami: archiwum + czasami tagiem sfery odpowiedzialności.</p>
+<h2 id="filtry">Filtry</h2>
+<p>Jak do tej pory może nie do końca widzicie sens wdrażania GTD akurat w Notion. Ale to właśnie w filtrach kryje się moc tego narzędzia i nieoszacowana pomoc w produktywności, która umożliwi nam <strong>osiągnięcie super organizacji</strong>.</p>
+<p><strong>Jak do tej pory powinniśmy mieć:</strong></p>
+<ul>
+<li>jedną bazę danych - naszą skrzynkę zbiorczą wypełnioną zadaniami i informacjami. Materiały w bazie danych powinny być przeanalizowane (“✓”) i uporządkowane (otagowane według naszych specyficznych potrzeb).</li>
+<li>strony - jedna na każdą ze sfer odpowiedzialności</li>
+</ul>
+<p>Teraz musimy <strong>stworzyć jeszcze jedną stronę w Notion, będzie to nasz codzienny punkt odniesienia</strong>. Możecie ją nazwać ‘Zaglądaj codziennie’, albo ‘Master Lista’. Na tej stronie wstawimy przefiltrowaną kopię naszej głównej bazy danych.</p>
+<p>Aby tego dokonać, wystarczy: kliknąć w dowolnym miejscu na stronie, wpisać “/” i z listy wybrać Database ---&gt; Create linked database---&gt; wybrać bazę danych z listy (jak na razie mamy tylko jedną).</p>
+<p>Jak wstawiliśmy naszą bazę danych na stronie, <strong>musimy dodać jeszcze filtry</strong>, w innym wypadku, będzie ona wyglądała tak samo jak oryginalna baza danych, a nie o to nam chodzi.</p>
+<p><strong>Aby dodać filtr:</strong> klikamy ‘Filter’ u góry tabeli i dodajemy przynajmniej jedną regułę: że pole ‘Wymaga działania’ jest zaznaczone “✓”.</p>
+<p>Dzięki temu wszystkie rzeczy, które wymagają z naszej strony jakiegoś działania znajdą się na naszej codziennej, głównej liście. Natomiast archiwa i materiały nie wymagające żadnego działania z niej znikną. Magic!</p>
+<figure data-type="image" tabindex="5"><img src="https://nomadbynature.github.io/post-images/1604702600583.jpg" alt="" loading="lazy"></figure>
+<p>Dodawanie filtrów</p>
+<p>Najfajniejsze w filtrach i bazach danych jest to, że możemy je stosować w dowolnych miejscach w naszym systemie. Czyli, jeśli nasz jeden codzienny widok nam nie wystarcza, tą samą bazę możemy wstawić w obrębie naszych sfer odpowiedzialności (stron) i zastosować inne filtry, tak aby wyświetlane były jedynie te informacje i zadania, które tyczą się danej sfery.</p>
+<p>I to jest właśnie tak fantastyczne w tej aplikacji i połączeniu jej z metodami GTD i częściowo P.A.R.A.. Możemy stosować jeden widok, lub jeśli chcemy skupić się wyłącznie na jednej sferze, albo tylko na projektach, albo tylko na archiwum możemy to zrobić w mgnieniu oka za pomoc filtrów.</p>
+<figure data-type="image" tabindex="6"><img src="https://nomadbynature.github.io/post-images/1604702618907.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://nomadbynature.github.io/post-images/1604702627941.jpg" alt="" loading="lazy"></figure>
+<p>Przykłady użycia filtrów w Notion</p>
+<h2 id="4-przeglądanie-i-5-realizacja">4. Przeglądanie i 5. Realizacja</h2>
+<p>Przeglądanie to ważny element GTD, może nawet najważniejszy? Przeglądanie, to w skrócie regularna analiza + porządkowanie. Czyli ciągłe (np. cotygodniowe) powtarzanie tych czynności w celu oczyszczenia naszego zbiornika głównego. Pamiętacie może kolumnę 'sprawdzone', którą wam proponowałam. Jeśli przeanalizujecie dany element, zaznaczcie okienko w tej kolumnie “✓” i dodajcie filtr do głównej bazy danych, tak aby wyświetlały się jedynie rzeczy, które wciąż wymagają przeanalizowania. Pozamiatane!</p>
+<p>Jeśli chodzi o etap realizacji w GTD, to w całości zostawiam go wam.</p>
+<h2 id="uwagi-dodatkowe">Uwagi dodatkowe</h2>
+<p>Poniżej znajdziecie uzasadnienie niektórych moich wyborów i decyzji związanych z wprowadzeniem metody GTD w Notion. Oczywiście systemy te są na tyle elastyczne, że każdy może stworzyć własne rozwiązania i dostosować je do swoich potrzeb organizacyjnych.</p>
+<p>Co z kalendarzem?</p>
+<p>Bardzo istotnym, wręcz integralnym elementem metody GTD jest kalendarz.</p>
+<p>Ja sama bardzo rzadko korzystam z kalendarza i muszę przyznać, że ten w aplikacji Notion nie jest najlepszy, choć na moje potrzeby wystarcza w zupełności. Jednak jeśli jest wam potrzebny i chcecie z niego korzystać, polecam na waszej stronie codziennej listy zadań dodać nową bazę danych w formie (widoku) kalendarza.</p>
+<p>Aby to zrobić: na stronie wpisz “/” ---&gt; z listy wybierz Database---&gt; Calendar Inline</p>
+<p>Aby dodawać zadania do kalendarza, wystarczy że klikniesz na odpowiedni dzień i wpiszesz zadanie.</p>
+<figure data-type="image" tabindex="8"><img src="https://nomadbynature.github.io/post-images/1604702661987.png" alt="" loading="lazy"></figure>
+<p>Baza danych - widok kalendarza</p>
+<p>Jeśli chodzi o terminowe wykonywanie zadań i projektów, ja najczęściej nie korzystam z kalendarza, a dodaję rubrykę z datą w bazie danych. Jeśli mam taką potrzebę dodaję przypomnienie o danym zadaniu (na dzień, tydzień, miesiąc... przed terminem zakończenia).</p>
+<p>Czy do wprowadzenia metodologii GTD potrzebuję Notion?</p>
+<p>Oczywiście, że nie. Notion to tylko nośnik, narzędzie, równie dobrze może nim być papierowy notatnik, kalendarz lub inne aplikacje, jak Trello czy Evernote. Ja bardzo polubiłam, narzędzie Notion i uważam je za lepsze, aniżeli te wyżej wspomniane. Dlatego dzielę się z wami doświadczeniami z wykorzystaniem GTD w tej aplikacji.</p>
+<p>Dlaczego zastosowałaś tylko jedną bazę danych?</p>
+<p>Myślę, że to dobre pytanie. A w rzeczywistości mam więcej niż jedną bazę danych. Według metody GTD im mniej zbiorników w które 'łapiemy' płynące do nas zewsząd informacje tym lepiej, bo bardziej możemy na nich polegać. Im więcej zbiorników mamy, tym łatwiej nam coś przeoczyć. <strong>Bazy danych to takie zbiorniki.</strong></p>
+<p><strong>Są jednak sytuacje, w których jeden zbiornik nie wystarcza</strong>, bądź lepiej stworzyć inny, na specyficzne potrzeby. Przykładowo: jeśli gotowanie to wasze hobby i lubicie zbierać przepisy na różne dania, ma sens stworzenie osobnej bazy danych zatytułowanej 'przepisy', nie ma sensu umieszczać wszystkich przepisów w naszej zbiorczej bazie danych. Taką bazę danych można też osobno otagować, np. 'desery', 'dania główne', itp.</p>
+<p>Skąd rozbicie na ‘nazwa’ i ‘kolejna działanie’, czy to nie to samo?</p>
+<p>Wynika to z podstaw metodologii Getting Things Done, i wydaje mi się, że ma sens. Projekty, mają jedną nazwę, ale wiele zadań do wykonania w ich obrębie, więc lepiej trzymać je pod jedną nazwą, a uaktualniać tylko rubrykę 'kolejne działanie'. Łatwo jest nam pomylić nazwę projektu z kolejnyą, faktyczną rzeczą do zrobienia, ale przy GTD musimy umieć wyczuć różnicę. Po szczegóły, odsyłam was (kolejny raz) do samej książki opisującej metodę GTD Allen'a.</p>
+<p>Optymalizacja</p>
+<p>Aby w pełni wykorzystać możliwości Notion, najlepiej byłoby mieć dostęp do aplikacji na wszystkich urządzeniach, z których korzystacie. Aby móc szybko dodawać zadania, itp. do naszej głównej bazy danych lub szybko sprawdzić, co mamy do zrobienia.</p>
+<p>Ubolewam jedynie, że póki co aplikacja na Androida jest słaba...i działa wolno. Ja najczęściej używam aplikacji bezpośrednio w przeglądarce lub na moim komputerze (program można ściągnąć na oficjalnej stronie Notion).</p>
+<h2 id="podsumowanie">Podsumowanie</h2>
+<iframe src="https://giphy.com/embed/vwvXCbbMqGpYO7UByW" width="480" height="480" allowfullscreen></iframe>
+<p><a href="https://giphy.com/gifs/uf-so-close-uff-vwvXCbbMqGpYO7UByW">via GIPHY</a></p>
+<p>Uffff….przebraliście jakoś przez te wszystkie technikalia. Myślę, jednak że post jest wypełniony praktycznymi informacjami i pozwoli wam na faktyczne wprowadzenie GTD w życie przy użyciu Notion (choć najlepiej byłoby, gdybyście mieli już trochę doświadczenia z jednym i drugim).</p>
+<p>Jeśli macie pytania co do metod GTD i P.A.R.A. lub zastosowania ich w Notion dajcie mi znać w komentarzach. Jestem też ciekawa czy znaleźliście własne rozwiązania na poprawę produktywności? Swoimi doświadczeniami, możecie podzielić się również na <a href="https://www.facebook.com/Nomad-by-nature-2001473886814218/?modal=admin_todo_tour">mojej facebookowej stronie</a>.</p>
+<p>Ja bardzo lubię korzystać z wypracowanego przeze mnie systemu, wszystko działa jak dobrze naoliwiona maszyna. Czasem są zgrzyty, wymiany części i polerowanie, ale żaden system nie jest idealny ani statyczny, <strong>zmiany są jego częścią.</strong></p>
+<p>Jeśli wszystko co napisałam brzmi zbyt skomplikowanie, to nagrałam, również krótki film instruktażowy, aby pokazać wam, że cały proces jest łatwy i naprawdę nie jest aż taki straszny ani praco- czy czasochłonny jak mogłoby się wydawać. Filmik ukaże się już wkrótce na moim kanale YouTube.</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://nomadbynature.github.io/tag/6A0tq78d9/" class="tag">
+                    Narzędzia
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://nomadbynature.github.io/post/atrakcje-kolumbii-mecz-pilki-noznej-w-medellin/">
+                  <h3 class="post-title">
+                    Atrakcje Kolumbii - mecz piłki nożnej w Medellin
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
