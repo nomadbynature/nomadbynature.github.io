@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nomadbynature.xyz</id>
     <title>Nomad by nature</title>
-    <updated>2020-11-10T14:49:52.377Z</updated>
+    <updated>2020-11-10T15:11:36.515Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nomadbynature.xyz"/>
     <link rel="self" href="https://nomadbynature.xyz/atom.xml"/>
@@ -98,7 +98,7 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
         <id>https://nomadbynature.xyz/cyfrowy-nomadyzm-to-nie-tylko-praca-zdalna-kim-sa-cyfrowi-nomadzi/</id>
         <link href="https://nomadbynature.xyz/cyfrowy-nomadyzm-to-nie-tylko-praca-zdalna-kim-sa-cyfrowi-nomadzi/">
         </link>
-        <updated>2020-07-26T21:00:00.000Z</updated>
+        <updated>2020-07-26T08:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Coraz więcej ludzi interesuje się cyfrowym nomadyzmem, coraz więcej ludzi wie też co oznacza pojęcie cyfrowy nomadyzm. Ba! Jak oszacował <a href="https://levels.io/future-of-digital-nomads/">Pieter Levels</a> (twórca Nomad List) do 2035 roku cyfrowych nomadów ma być ponad miliard!</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>Coraz więcej ludzi interesuje się cyfrowym nomadyzmem, coraz więcej ludzi wie też co oznacza pojęcie cyfrowy nomadyzm. Ba! Jak oszacował <a href="https://levels.io/future-of-digital-nomads/">Pieter Levels</a> (twórca Nomad List) do 2035 roku cyfrowych nomadów ma być ponad miliard!</p>
@@ -198,11 +198,9 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
 <p>Czy coliving różni się od zwyczajnego wynajęcia mieszkania wspólnie z innymi ludźmi (tzw. flat sharing). W teorii tak, coliving jest przeważnie organizowany i sprzedawany jako pakiet, całość. Nie opłacasz osobno rachunków, nie trzeba się samemu starać o założenie internetu, czy naprawy itp. Coliving w domyśle ma też budowanie społeczności, więc niekiedy wymagane są pewne kryteria jeśli chcemy wprowadzić się do danego colivingu. Ale myślę, że nie ma co tu dzielić włosa na czworo.</p>
 <p>Podczas pisania tego postu przebywam w Medellin i mieszkam właśnie w przestrzeni typu coliving. Jak dla mnie jest to bardzo wygodne, choć wcześniej miałam różne doświadczenia z tego typu zakwaterowaniem.</p>
 <figure data-type="image" tabindex="4"><img src="https://nomadbynature.xyz/post-images/1604684440835.jpeg" alt="" loading="lazy"></figure>
-<pre><code>Casa Estudio w Medellin
-</code></pre>
+<p>Casa Estudio w Medellin</p>
 <figure data-type="image" tabindex="5"><img src="https://nomadbynature.xyz/post-images/1604684465255.jpeg" alt="" loading="lazy"></figure>
-<pre><code>Praca wre :)
-</code></pre>
+<p>Praca wre 😃</p>
 <p>Tu w Medellin w <a href="http://www.casaestudiomedellin.com/">Casa Estudio</a>, w cenie wynajmu, mamy własny pokój z miejscem do pracy i łazienką, oprócz tego dostęp do kuchni, dużą przestrzeń wspólną, do pracy i wspólnych obiadów (organizowanych przez gospodarza raz w tygodniu, raz nawet ugotował pierogi!), wszystkie opłaty w tym szybki internet, sprzątanie oraz pranie. Oprócz tego nasi współlokatorzy są bardzo fajni i wszyscy pracują online na różnymi projektami.</p>
 <h3 id="coworkation">Coworkation</h3>
 <p>Miało być 3 x “co-”, ale muszę jeszcze dodać parę słów o coworkation. Cóż to za neologizm?</p>
@@ -309,7 +307,7 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
         <id>https://nomadbynature.xyz/ksiazka-praca-bez-sensu-teoria-masz-prace-ktora-jest-bezsensowna-nie-jestes-sam/</id>
         <link href="https://nomadbynature.xyz/ksiazka-praca-bez-sensu-teoria-masz-prace-ktora-jest-bezsensowna-nie-jestes-sam/">
         </link>
-        <updated>2020-06-27T01:00:00.000Z</updated>
+        <updated>2020-06-26T12:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Książka David’a Graeber’a <a href="https://webep1.com/go/883e74f992">“Praca bez sensu. Teoria”</a> trochę mnie przygnębiła. A to dlatego, że opisuje (jak się okazuje) bardzo rozpowszechniony problem społeczny, o którym się właściwie nie mówi. W zasadzie, to nie tylko się o tym problemie nie mówi, panuje też przekonanie, że</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>Książka David’a Graeber’a <a href="https://webep1.com/go/883e74f992">“Praca bez sensu. Teoria”</a> trochę mnie przygnębiła. A to dlatego, że opisuje (jak się okazuje) bardzo rozpowszechniony problem społeczny, o którym się właściwie nie mówi. W zasadzie, to nie tylko się o tym problemie nie mówi, panuje też przekonanie, że</p>
@@ -336,7 +334,7 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
 <p>Takie myślenie jednak w żaden sposób nie odnosi się do problemu społecznego (na poziomie wyższym niż osobisty) jakim jest ścisłe związanie możliwości przetrwania z pracą (pensją), i zakłada, że ludzie żyją jedynie w sferze ekonomicznej oraz dla własnego zysku. Pomijając jednocześnie problem realnych negatywnych skutków psychologicznych spowodowanych przez bezsensowną pracę.</p>
 <p>Kolejnym powtarzającym się w dyskusjach zarzutem wobec koncepcji bs jobs, jest to, że dzisiejszych czasach organizacje są tak skomplikowane, że zwykli pracownicy mogą nie rozumieć swojej roli w rozbudowanej machinie przedsiębiorstwa. Autor jednak skłania się ku opinii, z resztą uważam, że słusznie, że jeśli masz pracę bez sensu, to najczęściej o tym wiesz.</p>
 <p><strong>Warto przeczytać książkę, aby prześledzić poszczególne argumenty i kroki, które doprowadziły autora do jego ostatecznej definicji bezsensownej pracy.</strong></p>
-<p>![(https://nomadbynature.xyz/post-images/1604686650330.jpg)</p>
+<figure data-type="image" tabindex="1"><a href="https://webep1.com/go/883e74f992"><img src="https://nomadbynature.xyz/post-images/1604686650330.jpg" alt="Foo" loading="lazy"></a></figure>
 <p>Książka dostarczy wielu emocji i tematów do ciekawych dyskusji</p>
 <h3 id="rodzaje-pracy-bez-sensu">Rodzaje pracy bez sensu</h3>
 <p>Po raz kolejny chcę zaznaczyć i zaznacza to wielokrotnie sam autor, że jednym z najważniejszych kryteriów, według którego określa się pracę jako bez sensu (bullshit, praca-ściema) jest subiektywna ocena wykonującego takową pracę. Książka nie wytyka więc ludziom: 'to twoja praca jest bez sensu.' (Chociaż autor wskazuje sektor FIRE - finanse, ubezpieczenia i nieruchomości, jako ten najbardziej winny kreowaniu bezsensownych prac). Nie ocenia, a raczej bazując na głosach społecznych (pochodzących z różnych zawodów i branż) pokazuje, że problem widzą przede wszystkim sami pracownicy.</p>
@@ -365,7 +363,6 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
 <p>Myślę również, że wśród cyfrowych nomadów, szczególnie tych utrzymujących się z freelance może pojawiać się dużo tzw. duck-tapers lub goons (wyjaśnienie terminów powyżej). Choć z drugiej strony wśród nomadów jest dużo przedsiębiorców zakładających własne firmy i pełno-etatowych pracowników, także trudno mi powiedzieć, czy ta grupa społeczna bardziej przyczynia się do tworzenia czy likwidacji bezsensownych prac (a może cyfrowi nomadzi są ofiarami takich stanowisk pracy?). Ankieta, czy badanie przeprowadzone na temat bezsensownej pracy wśród cyfrowych nomadów, mogłyby być interesujące.</p>
 <h2 id="podsumowanie">Podsumowanie</h2>
 <p>Książka David'a Graeber'a to świetny, choć długi wstęp do dyskusji o problemach jakie niesie ze sobą bezsensowna praca. Nawet jeśli nie zgodzicie się ze wszystkimi argumentami proponowanymi przez autora, (albo nawet odrzucicie zupełnie możliwość istnienia bs jobs), to uważam, że kwestionowanie status quo zawsze jest dobrym pomysłem, tylko w ten sposób możemy iść na przód. Zachęcam do lektury.</p>
-<script type="text/javascript" src="https://buybox.click/js/bb-widget.min.js" async></script>
 ]]></content>
     </entry>
     <entry>
@@ -373,7 +370,7 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
         <id>https://nomadbynature.xyz/odmien-swoje-zycie-z-regula-5-sekund/</id>
         <link href="https://nomadbynature.xyz/odmien-swoje-zycie-z-regula-5-sekund/">
         </link>
-        <updated>2020-06-06T01:00:00.000Z</updated>
+        <updated>2020-06-05T12:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Sam tytuł książki <a href="https://webep1.com/go/4f11e29692">Mel Robbins “Reguła 5 sekund. Masz wszystko, czego potrzebujesz, aby odmienić swoje życie”</a> nie zachęciłby mnie do jej przeczytania. 5 sekund to raczej za mało, aby odmienić swoje życie. Ale do lektury skłoniło</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>Sam tytuł książki <a href="https://webep1.com/go/4f11e29692">Mel Robbins “Reguła 5 sekund. Masz wszystko, czego potrzebujesz, aby odmienić swoje życie”</a> nie zachęciłby mnie do jej przeczytania. 5 sekund to raczej za mało, aby odmienić swoje życie. Ale do lektury skłoniło</p>
@@ -386,7 +383,7 @@ Popularne jest również tzw. <strong>tinto campesino</strong> - czyli tinto dod
 <h2 id="dla-kogo-jest-ta-książka">Dla kogo jest ta książka?</h2>
 <p>Myślę, że dla ludzi, którzy mają tendencję do prokrastynacji, odkładania wszystkiego na później i do zamartwiania się. Metoda 5 sekund ma nam pomóc wyjść z własnej głowy i zamiast myśleć o tym co może się zdarzyć i co byśmy chcieli zrobić, <strong>przystąpić do faktycznego działania</strong>.</p>
 <p>Więc jeśli masz problem z ociąganiem się, opisana w książce reguła 5 sekund pomoże ci zmienić swoje życie i przenieść punkt ciężkości z zastanawiania się, gdybania i zamartwiania na to co najważniejsze i daje rezultaty, czyli robienie. <strong>Wszystko po to, aby posunąć swoje życie i cele do przodu.</strong></p>
-<p>![(https://nomadbynature.xyz/post-images/1604686846713.jpg)<br>
+<p><a href="https://webep1.com/go/4f11e29692"><img src="https://nomadbynature.xyz/post-images/1604686846713.jpg" alt="Foo" loading="lazy"></a><br>
 Reguła 5 sekund - okładka książki</p>
 <h2 id="reguła-5-sekund-jak-i-kiedy-ją-wykorzystać">Reguła 5 sekund jak i kiedy ją wykorzystać?</h2>
 <p>Jak mówi sama autorka, <strong>reguła 5 sekund to narzędzie</strong>. Narzędzie, które jest bardzo uniwersalne i będzie działać w wielu aspektach naszego życia, bo tak naprawdę działa ono na nas samych, a jak zmienimy się my - nasze działanie, to odmieni się również nasze życie. Narzędzia można użyć, aby zbudować dobry nawyk, pozbyć się złego nawyku czy nałogu, wyleczyć się z zamartwiania się, albo nawet, jak w przypadku autorki, strachu przed lataniem.</p>
@@ -423,7 +420,6 @@ Reguła 5 sekund - okładka książki</p>
 <p>Ja sama zmotywowałam się do napisania tego wpisu dzięki regule 5 sekund. Ponieważ artykuł został napisany, można zakładać, że metoda działa.</p>
 <p>Książkę “Reguła 5 sekund. Masz wszystko, czego potrzebujesz, aby odmienić swoje życie” czyta się przyjemnie, jest napisana lekkim językiem, znajdziecie w niej wiele inspirujących przykładów na wykorzystanie reguły w codziennym życiu, zawodowym i osobistym.</p>
 <p>Także nie czekaj! <a href="https://webep1.com/go/4f11e29692">5 4 3 2 1 i czytaj!</a> Z książką Mel Robbins odmienisz swoje życie w 5 sekund, raz po raz.</p>
-<script type="text/javascript" src="https://buybox.click/js/bb-widget.min.js" async></script>
 ]]></content>
     </entry>
     <entry>
