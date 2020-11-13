@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nomadbynature.xyz</id>
-    <title>Nomad by nature</title>
-    <updated>2020-11-12T23:28:30.240Z</updated>
+    <title>Nomad by Nature</title>
+    <updated>2020-11-13T00:30:08.276Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nomadbynature.xyz"/>
     <link rel="self" href="https://nomadbynature.xyz/atom.xml"/>
     <subtitle>Cyfrowy nomadyzm po polsku</subtitle>
     <logo>https://nomadbynature.xyz/images/avatar.png</logo>
     <icon>https://nomadbynature.xyz/favicon.ico</icon>
-    <rights>All rights reserved 2020, Nomad by nature</rights>
+    <rights>All rights reserved 2020, Nomad by Nature</rights>
     <entry>
         <title type="html"><![CDATA[Psychologia pieniędzy - Morgan Housel - naszymi finansami rządzą emocje]]></title>
         <id>https://nomadbynature.xyz/psychologia-pieniedzy-morgan-housel-naszymi-finansami-rzadza-emocje/</id>
